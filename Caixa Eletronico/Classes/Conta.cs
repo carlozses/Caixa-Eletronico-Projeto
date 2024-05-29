@@ -14,6 +14,11 @@ namespace Caixa_Eletronico.Classes
         protected bool status;
         protected List<Transacao> transacoes;
 
+        public List<Transacao> Transacoes
+        {
+            get => transacoes;
+        }
+
         public string Numero
         {
             get => numero;

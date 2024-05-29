@@ -33,6 +33,7 @@ namespace Caixa_Eletronico
             else
             {
                 MessageBox.Show("Conta nao existe!");
+                txtBox.Text = "";
             }
         }
 

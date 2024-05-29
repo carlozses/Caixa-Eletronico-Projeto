@@ -177,5 +177,10 @@ namespace Caixa_Eletronico
         {
 
         }
+
+        private void dgvContas_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

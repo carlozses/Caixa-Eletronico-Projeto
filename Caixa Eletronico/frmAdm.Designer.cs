@@ -62,6 +62,7 @@
             dgvContas.Size = new Size(450, 426);
             dgvContas.TabIndex = 0;
             dgvContas.CellClick += dgvContas_CellClick;
+            dgvContas.CellContentClick += dgvContas_CellContentClick;
             // 
             // label1
             // 

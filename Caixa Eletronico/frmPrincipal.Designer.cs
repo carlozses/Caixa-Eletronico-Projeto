@@ -55,6 +55,7 @@
             btSaque.TabIndex = 1;
             btSaque.Text = "Sacar";
             btSaque.UseVisualStyleBackColor = true;
+            btSaque.Click += btSaque_Click;
             // 
             // btDeposita
             // 
@@ -64,6 +65,7 @@
             btDeposita.TabIndex = 2;
             btDeposita.Text = "Depositar";
             btDeposita.UseVisualStyleBackColor = true;
+            btDeposita.Click += btDeposita_Click;
             // 
             // btTrans
             // 
@@ -73,6 +75,7 @@
             btTrans.TabIndex = 3;
             btTrans.Text = "Transferir";
             btTrans.UseVisualStyleBackColor = true;
+            btTrans.Click += btTrans_Click;
             // 
             // btExtrato
             // 
