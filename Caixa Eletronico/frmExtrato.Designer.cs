@@ -40,6 +40,7 @@
             dgvExtrato.Name = "dgvExtrato";
             dgvExtrato.Size = new Size(537, 252);
             dgvExtrato.TabIndex = 0;
+
             // 
             // btVoltar
             // 

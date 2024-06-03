@@ -21,7 +21,7 @@ namespace Caixa_Eletronico
         }
 
         private void btAcessar_Click(object sender, EventArgs e)
-        {
+        { 
             Conta c = s.BuscarConta(txtBox.Text);
             if (c != null)
             {

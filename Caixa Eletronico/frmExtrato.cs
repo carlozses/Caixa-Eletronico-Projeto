@@ -20,7 +20,7 @@ namespace Caixa_Eletronico
         }
         private void Recarregar()
         {
-            var source = new BindingSource();
+            var source = new BindingSource(); 
             source.DataSource = s.conta_logada.Transacoes;
             dgvExtrato.DataSource = source;
         }

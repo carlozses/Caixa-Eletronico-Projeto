@@ -40,9 +40,9 @@ namespace Caixa_Eletronico.Classes
             this.conta = conta;
         }
 
-        /*public override string ToString()
+        public override string ToString()
         {
-            return this.Duplicata;
-        }*/
+            return tipo+", "+valor+", "+conta;
+        }
     }
 }

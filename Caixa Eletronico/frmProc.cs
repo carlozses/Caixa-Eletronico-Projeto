@@ -17,6 +17,7 @@ namespace Caixa_Eletronico
         bool pode_T;
         Singleton s;
         private string tipo;
+
         public frmProc()
         {
             s = Singleton.Instance;
@@ -39,8 +40,6 @@ namespace Caixa_Eletronico
 
         private void btFazer_Click(object sender, EventArgs e)
         {
-            if(tipo != "Extrato")
-            {
                 if (tipo == "Saque")
                 {
                     double valor = (double)numValor.Value;
@@ -52,7 +51,6 @@ namespace Caixa_Eletronico
                     {
                         MessageBox.Show("Saldo insuficiente...");
                     }
-
                 }
                 if (tipo == "Depósito")
                 {
@@ -83,13 +81,6 @@ namespace Caixa_Eletronico
                 frmPrincipal frm = new frmPrincipal();
                 frm.Show();
                 this.Hide();
-            }
-            else
-            {
-                frmExtrato frm = new frmExtrato();
-                frm.Show();
-                this.Close();
-            }
         }
 
         private void numValor_ValueChanged(object sender, EventArgs e)
